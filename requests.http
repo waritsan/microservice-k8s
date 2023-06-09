@@ -1,0 +1,25 @@
+# Signup
+POST https://idp.dev/api/users/signup
+content-type: application/json
+
+{
+    "email": "sample@sample.com",
+    "password": "sample"
+}
+
+### Signin
+POST https://idp.dev/api/users/signin
+content-type: application/json
+
+{
+    "email": "sample@sample.com",
+    "password": "sample"
+}
+
+### Currentuser
+GET https://idp.dev/api/users/currentuser
+content-type: application/json
+
+### Signout
+POST https://idp.dev/api/users/signout
+content-type: application/json
