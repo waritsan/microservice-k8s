@@ -1,7 +1,12 @@
 # microservice-k8s
 
-## Set env variable for the first time.
+## Initial setup
+1. Install ingress-nginx
+2. create env variable
+```
 kubectl create secret generic jwt-secret --from-literal=jwt=asdf
-
+```
 ## Start development
+```
 skaffold dev
+```
